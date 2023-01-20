@@ -6,6 +6,17 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "initialSupply",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
 				"anonymous": false,
 				"inputs": [
 					{
@@ -323,7 +334,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"1-ERC20/Contract.sol": "FirstToken"
+			"1-ERC20/FirstToken.sol": "FirstToken"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -337,12 +348,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"1-ERC20/Contract.sol": {
-			"keccak256": "0x859a8235fd6fd0c4a34b6f79707174261d82a3405fc4aa3e35f7e2f8e0d6cdc5",
+		"1-ERC20/FirstToken.sol": {
+			"keccak256": "0x87da2b51adf6e246115af5fa4458727f22a1cf9f19cb654b951ca55ec073e863",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://ae801f21fe74ec8263efb4f63e955685f8a84bd611b4261bb441c00ebdacbf58",
-				"dweb:/ipfs/QmfSRjXdsagGBTd1i6TXXVYL5aPioFmjyFpC3Da9Y3byv3"
+				"bzz-raw://c695509fb75f1b32c9594e86122f34270d01b516ac1aabf6c9058caed3bfa08f",
+				"dweb:/ipfs/QmcR6E17huXZsosiikCGvpchA5tpknz51qTLmxg9ZeXdPM"
 			]
 		},
 		"@openzeppelin/contracts/token/ERC20/ERC20.sol": {
